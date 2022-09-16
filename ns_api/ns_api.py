@@ -35,4 +35,5 @@ class NSApi:
 if __name__ == "__main__":
     ns_api = NSApi()
     r = ns_api.get_disruptions()
+    
     print("pause")
